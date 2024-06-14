@@ -2,9 +2,14 @@
 # It can be edited online at https://dandiarchive.org/dandiset/001057
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.7/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
+acknowledgement: This work was supported by NIH RF1-DA056404 and the Portuguese Recovery
+  and Resilience Plan (PPR), through project number 62, Center for Responsible AI,
+  and the Portuguese national funds, through FCT - Fundação para a Ciência e a Tecnologia
+  - in the context of the project UIDB/04443/2020. 9
 assetsSummary:
   approach: []
   dataStandard:
@@ -14,9 +19,9 @@ assetsSummary:
   measurementTechnique:
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 19956974409
-  numberOfFiles: 45
-  numberOfSubjects: 7
+  numberOfBytes: 23069424495
+  numberOfFiles: 57
+  numberOfSubjects: 8
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9544
@@ -42,23 +47,63 @@ description: 'NeuroTask is a benchmark dataset designed to facilitate the develo
   7 tasks across 17 subjects.
 
 
+  Check out the github repository for more resources and some example notebooks: https://github.com/catniplab/NeuroTask/
+
+
   This dataset includes:
 
   - Spike counts per unit
 
   - Behavioral data (hand/cursor position, velocity, force)
 
-  '
+  - Events indications'
+ethicsApproval: []
 id: DANDI:001057/draft
 identifier: DANDI:001057
+keywords:
+- Center Out
+- Reaching
+- Behavior
+- extracellular
+- motor cortex
+- premotor cortex
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001057/versions/draft/assets/
 name: 'NeuroTask - Center-Out Target Task: A Benchmark Dataset for Multi-Task, -Session
   and -Subject Neural Analysi'
+protocol: []
+relatedResource:
+- identifier: https://doi.org/10.5061/dryad.cvdncjt7n
+  name: 'Data from: Using adversarial networks to extend brain computer interface
+    decoding accuracy over time'
+  relation: dcite:IsDerivedFrom
+  repository: 'Data from: Using adversarial networks to extend brain computer interface
+    decoding accuracy over time'
+  resourceType: dcite:Dataset
+  schemaKey: Resource
+  url: https://datadryad.org/stash/dataset/doi:10.5061/dryad.cvdncjt7n
+- identifier: https://doi.org/10.1038/s41551-017-0169-7
+  name: A cryptography-based approach for movement decoding
+  relation: dcite:IsDerivedFrom
+  repository: A cryptography-based approach for movement decoding
+  resourceType: dcite:Dataset
+  schemaKey: Resource
+  url: https://github.com/nerdslab/myow-neuro/tree/main
+- identifier: https://doi.org/10.5061/dryad.xd2547dkt
+  name: Local field potentials reflect cortical population dynamics in a region-specific
+    and frequency-dependent manner [Dataset]
+  relation: dcite:IsDerivedFrom
+  repository: Local field potentials reflect cortical population dynamics in a region-specific
+    and frequency-dependent manner [Dataset]
+  resourceType: dcite:Dataset
+  schemaKey: Resource
+  url: https://datadryad.org/stash/dataset/doi:10.5061/dryad.xd2547dkt
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.7
+studyTarget: []
 url: https://dandiarchive.org/dandiset/001057/draft
 version: draft
+wasGeneratedBy: []

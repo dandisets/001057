@@ -50,7 +50,7 @@ description: 'NeuroTask is a benchmark dataset designed to facilitate the develo
   7 tasks across 17 subjects.
 
 
-  Check out the github repository for more resources and some example notebooks: https://github.com/catniplab/NeuroTask/
+  Check out the github repository for more resources and some example notebooks:https://github.com/catniplab/NeuroTask/tree/nwb
 
 
   This dataset includes:
